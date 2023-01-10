@@ -68,7 +68,7 @@ nav ul {
     font-size: 60px;
     margin-bottom: 22px;
 }
-.banner-discription {
+.banner-description {
     color: rgb(57, 72, 30);
     font-size: 20px;
     margin-bottom: 26px;
@@ -90,10 +90,11 @@ nav ul {
  }
  .section-title{
     font-weight: 700;
-    font-size: 35px
-    margin-bottom: 30px;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 80px;
  }
- .section-discription {
+ .section-description {
     color: rgb(16, 29, 41);
     font-size: 18px;
     margin-bottom: 30px;
@@ -109,5 +110,28 @@ nav ul {
 .info-description {
     font-weight: 700;
     font-size: 20px
-    co
+}
+/* what i do styles */
+.what-i-do {
+    margin-top: 130px;
+
+}
+.skill  {
+    background: rgb(219, 208, 187);
+    box-shadow: 0px 6px 50px rgb(179, 177, 149);
+    border-radius: 5px;
+    padding: 30px;
+}
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skill-description {
+    color: rgb(79, 112, 113);
 }
