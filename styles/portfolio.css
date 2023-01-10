@@ -2,13 +2,19 @@
     margin: 0;
 
 }
+
 /* navigation styles */
-nav-title {
-    font-weight: 1000px;
-    font-size: 90px;
+.nav-title {
+    font-weight: 400px;
+    size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-left: 200px;
+
 }
  
 /*  header and navigation styles */
+
+/*...needed help*/
 nav {
     background-color: rgb(98, 149, 150);
     display: flex;
@@ -16,6 +22,7 @@ nav {
     margin: 50px 200px;
     border: solid;
     border-color: rgb(32, 97, 75);
+    border-radius: 7px;
 }
 /* banner styles */
 .banner {
@@ -26,18 +33,22 @@ nav {
 .primary-color {
     color: rgb(233, 10, 10);
 }
+/*...needed help*/
 .btn-primary {
     height: 60px;
     font-size: 20px;
     border-radius: 8px;
     background-color: rgb(46, 182, 168);
     padding: 10px 30px;
+    margin-right: 30px;
+    margin-left: 200px;
 }
+/*...needed help*/
 .header {
     background-color: rgb(225, 223, 114);
-    background-image: url(../elements/images/header_bg.png);
+    background-image: url(../elements/images/header_bg.png), url(../elements/images/developer.png);
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, left;
 }
 nav li {
     list-style: none;
@@ -48,16 +59,34 @@ nav ul {
     align-items: center;
 }
 .banner-title {
-
+    height: 300px;
+    font-size: 40px;
+    font-variant: initial;
 }
 .banner-subtitle {
-    font-weight: 600px;
-    font-size: 50px;
+    font-weight: 500px;
+    font-size: 60px;
     margin-bottom: 22px;
 }
 .banner-discription {
-    color: darkolivegreen;
+    color: rgb(57, 72, 30);
     font-size: 20px;
     margin-bottom: 26px;
     margin-top: 8px;
 }
+ /* main section */
+ main{
+    max-width: 1140px;
+    margin: 0 auto;
+ }
+
+ /* section >> about-me */
+ .about-me{
+
+ }
+ .section-title{
+
+ }
+ .section-discription {
+
+ }
