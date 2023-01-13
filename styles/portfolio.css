@@ -138,6 +138,26 @@ section {
 .skill-description {
     color: rgb(79, 112, 113);
 }
+
 /* resume styles */
-.resume {
+.resume-content {
+    display: flex;
+}
+.resume .title {
+    background-color: rgb(66, 194, 151);
+    font-weight: 700;
+    font-size: 25px;
+    color: rgb(97, 14, 37);
+}
+.resume .sub-title {
+    color: rgb(86, 135, 225);
+    font-weight: 600;
+    font-size: 20px;
+}
+.resume .description {
+    color: darkgreen;
+}
+.section-title {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(162, 47, 233);
 }
